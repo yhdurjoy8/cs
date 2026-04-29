@@ -1,0 +1,53 @@
+# python files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+#pickle
+*.pkl
+# local dev files
+scripts/codepost/dev/
+dev.py
+scripts/handin/
+
+
+# latex temporary files
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.loa
+*.lof
+*.log
+*.lol
+*.out
+*.synctex.gz
+*.toc
+*.xwm
+
+#
+*~
+
+# minted subdirectory
+_minted-*
+figures/_minted*
+
+#
+.DS_Store
+documents/posts.md
+assignments/archive
+resources/objectaid/archive
+scratch.md
+dev.md
+dev/
+pull_data.py
+instructor*.md
